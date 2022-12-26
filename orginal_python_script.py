@@ -41,7 +41,7 @@ if sgv >= 180:
     print ('<h3 align="center" class="rainbow">Austin is</h3>')
     print ('<h4 align="center" class="rainbow">DEAD </h4>')
     print ('<h5 align="center" class="rainbow">His blood sugar is HIGH at %s </h5>' % (a))
-    print('<h6><center><img src="images/stressed.gif"style="width:480px;height:170px;"></center></h6>')
+    print ('<h6><center><img src="images/stressed.gif"style="width:480px;height:170px;"></center></h6>')
 
 elif sgv <= 80:
 
@@ -51,14 +51,14 @@ elif sgv <= 80:
     print ('<h3 align="center" class="rainbow">Austin is</h3>')
     print ('<h4 align="center" class="rainbow">DEAD </h4>')
     print ('<h5 align="center" class="rainbow">His blood sugar is LOW at %s </h5>' % (a))
-    print('<h6><center><img src="images/low1.gif"style="width:480px;height:170px;"></center></h6>')
+    print ('<h6><center><img src="images/low1.gif"style="width:480px;height:170px;"></center></h6>')
         
 else:
 
     print ('<h3 align="center" class="rainbow">Austin is</h3>')
     print ('<h4 align="center" class="rainbow">NOT DEAD </h4>')
     print ('<h5 align="center" class="rainbow">His blood sugar is %s </h5>' % (a))
-    print('<h6><center><img src="images/nooice.gif"style="width:480px;height:191px;"></center></h6>')
+    print ('<h6><center><img src="images/nooice.gif"style="width:480px;height:191px;"></center></h6>')
     print ('<link rel="stylesheet" href="fire.scss">')
     print ('<div class="pyro"><div class="before"></div><div class="after"></div></div>')
     
